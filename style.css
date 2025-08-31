@@ -10,9 +10,27 @@ body{
     width: 200px;
     height: 200px;
     border-radius:  20px;
+   
+}
+
+#dice1:hover{
+     transform: rotate(360deg);
+    transition: 1s;
+}
+
+#dice2:hover{
+     transform: rotate(360deg);
+    transition: 2s;
 }
 
 .container{
     display: flex;   
     gap: 50px;
+    background-color: #F7F4EA;
+    height: 550px;
+    width: 550px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
 }
