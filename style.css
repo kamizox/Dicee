@@ -32,15 +32,16 @@ body{
    justify-content: center;
    align-items: center;
    border-radius: 10px;
-   position: relative;
+   
 }
 
-.rolldice{
+.refreshMe{
     position: absolute;
-    margin-top: 460px;
-    width: 150px;
-    height: 45px;
-    background-color: aquamarine;
-    border: none;
-    border-radius: 10px;
+    margin-bottom: 377px;
+}
+
+
+.refT{
+  font-family: "Merienda", cursive;
+  font-size: 55px;
 }
