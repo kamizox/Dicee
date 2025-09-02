@@ -4,6 +4,8 @@ body{
     justify-content: center;
     margin: 0;
     height: 100vh;
+    background-color: #1E1F26;
+    
 }
 
 #dice1, #dice2{
@@ -25,13 +27,14 @@ body{
 .container{
     display: flex;   
     gap: 50px;
-    background-color: #F7F4EA;
+    background-color: #FFCE00;
     height: 550px;
     width: 550px;
    display: flex;
    justify-content: center;
    align-items: center;
    border-radius: 10px;
+   box-shadow: 5px 5px 22px black;
    
 }
 
@@ -44,4 +47,20 @@ body{
 .refT{
   font-family: "Merienda", cursive;
   font-size: 55px;
+  color: #154D71;
+  font-weight: 800;
+}
+
+.pl{
+margin-right: 60px;
+}
+
+.di{
+    margin-left: 60px;
+}
+
+.pl, .di{
+font-family: "Merienda", cursive;
+font-size: 66px;
+color: #FF3B3F;
 }
